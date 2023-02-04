@@ -1,0 +1,54 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    background: rgb(0,100,120);
+    background: linear-gradient(90deg, rgba(0,100,120,1) 11%, rgba(11,4,125,1) 100%);
+    height: 4.5rem;
+    font-size: 20px;
+}
+.logoWrap {
+    display: flex;
+    flex-direction: row;
+    background: deepskyblue;
+    border-radius: 10px;
+    margin: 0.5rem;
+    transition: background-color .2s;
+    text-decoration: none;
+}
+.logoWrap:hover {
+    background-color: mediumblue;
+
+}
+.logoWrap:active{
+    background-color: mediumslateblue;
+
+}
+.logo {
+    width: 3rem;
+    height: 3rem;
+    margin: auto 0 auto 1rem;
+    border-radius:25px;
+}
+.logoText {
+    margin: auto 1rem auto 1rem;
+    color: black;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: dodgerblue;
+    margin: auto 3rem auto 3rem;
+    width: 8rem;
+    border-radius: 8px;
+    height: 2rem;
+    padding-top: 0.3rem;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color .2s;
+}
+.button:hover {
+    background-color: mediumblue;
+}
+.button:active {
+    background-color: mediumslateblue;
+}

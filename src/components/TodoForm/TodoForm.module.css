@@ -1,0 +1,33 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.input {
+    width: 60rem;
+    margin: 1rem 20rem 0 20rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    padding-left: .5rem;
+    border-radius: 8px;
+}
+.submit {
+    width: 60rem;
+    margin: 2rem 20rem 0 20rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    padding-left: .5rem;
+    border-radius: 8px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: mediumslateblue;
+}
+.submit:active {
+    background-color: darkviolet;
+}
+.error {
+    margin:  0 20rem 0 20.5rem;
+    color: red;
+}

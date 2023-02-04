@@ -1,0 +1,59 @@
+.wrap{
+    background-color: blueviolet;
+    border-radius: 8px;
+    width: 70rem;
+    margin: 2rem auto;
+    display: flex;
+    height: content-box;
+    flex-direction: column;
+}
+.wrap:hover {
+    background-color: darkviolet;
+}
+.row {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin: 0 2rem 0 2rem;
+}
+.body {
+    margin: auto 0 auto 4.5rem;
+}
+
+.removeButton {
+    margin: auto 1rem auto auto;
+    border-radius: 8px;
+    background-color: white;
+    border-color: white;
+}
+.removeButton:hover {
+    background-color: mediumblue;
+    cursor: pointer;
+    border-color: mediumblue;
+}
+.removeButton:active {
+    background-color: mediumslateblue;
+    cursor: pointer;
+    border-color: mediumslateblue;
+}
+.complete {
+    width: 2rem;
+}
+.completed {
+    background-color: blueviolet;
+    border-radius: 8px;
+    width: 70rem;
+    margin: 2rem auto;
+    display: flex;
+    height: content-box;
+    flex-direction: column;
+    text-decoration: line-through;
+}
+.completedBody{
+    margin: auto 0 auto 4.5rem;
+    text-decoration: line-through;
+}
+.completedTitle{
+    text-decoration: line-through;
+
+}
